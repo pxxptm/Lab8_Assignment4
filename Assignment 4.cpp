@@ -107,6 +107,7 @@ main()
     DWORD numEventsRead = 0;
     setConsole(screen_x, screen_y);
     setMode();
+    srand(time(NULL));
     setcursor(0);
     int color=7;
     int posx=0,posy=0;
